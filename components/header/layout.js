@@ -1,13 +1,13 @@
 import Link from "next/link";
 import styles from "../../app/styles/header.module.css";
-import { PiWrenchBold } from "react-icons/pi";
 import MenuList from "./menuList";
+import Logo from "./logo";
 
 const Layout = () => {
   return (
     <header className={styles.headerWrapper}>
       <Link href="/">
-        <PiWrenchBold size={38} />
+        <Logo />
       </Link>
       <MenuList />
     </header>
