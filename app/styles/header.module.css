@@ -1,6 +1,7 @@
 .headerWrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0px 20px;
   background-color: #242526;
 }
@@ -19,6 +20,12 @@
   height: 80px;
   display: inline-block;
   text-decoration: none;
+}
+
+.mobileMenuBtn {
+  color: white;
+  background-color: transparent;
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
