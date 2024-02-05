@@ -6,7 +6,7 @@ import Logo from "./logo";
 const Layout = () => {
   return (
     <header className={styles.headerWrapper}>
-      <Link href="/">
+      <Link href="/" className={styles.logoLink}>
         <Logo />
       </Link>
       <MenuList />
