@@ -18,6 +18,7 @@ const Layout = () => {
       <Link href="/" className={styles.logoLink}>
         <Logo />
       </Link>
+      <OpenMobileMenuBtn />
       {/* {screenWidth < 768 ? <OpenMobileMenuBtn /> : <MenuList />} */}
     </header>
   );
