@@ -3,6 +3,7 @@ import styles from "../../app/styles/header.module.css";
 import MenuList from "./menuList";
 import Logo from "./logo";
 import OpenMobileMenuBtn from "./openMobileMenuBtn";
+import MobileMenu from "./mobileMenu";
 // import { useEffect, useState } from "react";
 
 const Layout = () => {
@@ -19,6 +20,7 @@ const Layout = () => {
         <Logo />
       </Link>
       <OpenMobileMenuBtn />
+      <MobileMenu />
       {/* {screenWidth < 768 ? <OpenMobileMenuBtn /> : <MenuList />} */}
     </header>
   );

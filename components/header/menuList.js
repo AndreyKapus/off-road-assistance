@@ -7,10 +7,14 @@ const MenuList = () => {
     <>
       <ul className={styles.linksList}>
         <li>
-          <Link href="/contacts">Контакти</Link>
+          <Link href="/contacts" className={styles.listLink}>
+            Контакти
+          </Link>
         </li>
         <li>
-          <Link href="/tariffs">Тарифи</Link>
+          <Link href="/tariffs" className={styles.listLink}>
+            Тарифи
+          </Link>
         </li>
       </ul>
     </>
