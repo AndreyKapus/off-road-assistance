@@ -7,13 +7,6 @@ import MobileMenu from "./mobileMenu";
 // import { useEffect, useState } from "react";
 
 const Layout = () => {
-  // const [screenWidth, setScreenWidth] = useState(null);
-
-  // useEffect(() => {
-  //   const width = window.screen.width;
-  //   setScreenWidth(width);
-  // }, []);
-
   return (
     <header className={styles.headerWrapper}>
       <Link href="/" className={styles.logoLink}>
@@ -21,7 +14,7 @@ const Layout = () => {
       </Link>
       <OpenMobileMenuBtn />
       <MobileMenu />
-      {/* {screenWidth < 768 ? <OpenMobileMenuBtn /> : <MenuList />} */}
+      <MenuList />
     </header>
   );
 };

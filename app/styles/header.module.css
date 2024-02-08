@@ -9,6 +9,7 @@
 .linksList {
   list-style: none;
   text-decoration: none;
+  display: none;
 }
 
 .listLink {
@@ -50,5 +51,9 @@
     align-items: center;
     list-style: none;
     gap: 20px;
+  }
+
+  .mobileMenuBtn {
+    display: none;
   }
 }
