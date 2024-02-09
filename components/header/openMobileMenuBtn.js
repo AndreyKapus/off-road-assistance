@@ -1,3 +1,5 @@
+"use client";
+
 import { IoMdMenu } from "react-icons/io";
 import styles from "../../app/styles/header.module.css";
 
