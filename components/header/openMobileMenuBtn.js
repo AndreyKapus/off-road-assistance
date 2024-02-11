@@ -8,7 +8,6 @@ const OpenMobileMenuBtn = () => {
     <>
       <button type="button" className={styles.mobileMenuBtn}>
         <IoMdMenu size={24} />
-        open
       </button>
     </>
   );
