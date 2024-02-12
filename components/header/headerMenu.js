@@ -26,7 +26,7 @@ const Layout = () => {
         <Logo />
       </Link>
       {screenWidth < 768 ? <OpenMobileMenuBtn /> : <MenuList />}
-      {mobMenuState ? <MobileMenu /> : <div>None</div>}
+      {/* {mobMenuState ? <MobileMenu /> : <div>None</div>} */}
     </div>
   );
 };

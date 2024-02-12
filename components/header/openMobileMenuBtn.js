@@ -8,7 +8,6 @@ const OpenMobileMenuBtn = () => {
   const [mobMenu, setMobileMenu] = useState(false);
 
   const mobMenuOpen = useMenu((state) => state.setMenu);
-  console.log(mobMenu);
 
   const togleMobileMenu = () => {
     mobMenu === false ? setMobileMenu(true) : setMobileMenu(false);
