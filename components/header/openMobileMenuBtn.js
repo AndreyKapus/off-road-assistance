@@ -4,22 +4,13 @@ import { IoMdMenu } from "react-icons/io";
 import styles from "../../app/styles/header.module.css";
 import { useMenu } from "@/store";
 
-const OpenMobileMenuBtn = () => {
-  const [mobMenu, setMobileMenu] = useState(false);
-
-  const mobMenuOpen = useMenu((state) => state.setMenu);
-
-  const togleMobileMenu = () => {
-    mobMenu === false ? setMobileMenu(true) : setMobileMenu(false);
-    mobMenuOpen(mobMenu);
-  };
-
+const OpenMobileMenuBtn = ({ toggleMenu }) => {
   return (
     <>
       <button
         type="button"
         className={styles.mobileMenuBtn}
-        onClick={togleMobileMenu}
+        onClick={toggleMenu}
       >
         <IoMdMenu size={24} />
       </button>

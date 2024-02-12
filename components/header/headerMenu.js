@@ -11,6 +11,15 @@ import { useEffect, useState } from "react";
 
 const Layout = () => {
   const [screenWidth, setScreenWidth] = useState(null);
+  const [mobMenu, setMobileMenu] = useState(false);
+
+  // const mobMenuOpen = useMenu((state) => state.setMenu);
+
+  const togleMobileMenu = () => {
+    setMobileMenu(true);
+  };
+
+  console.log(mobMenu);
 
   useEffect(() => {
     const width = window.screen.width;
@@ -22,8 +31,12 @@ const Layout = () => {
       <Link href="/" className={styles.logoLink}>
         <Logo />
       </Link>
-      {screenWidth < 768 ? <OpenMobileMenuBtn /> : <MenuList />}
-      {<OpenMobileMenuBtn /> && <MobileMenu />}
+      {screenWidth < 768 ? (
+        <OpenMobileMenuBtn toggleMenu={togleMobileMenu} />
+      ) : (
+        <MenuList />
+      )}
+      {mobMenu === true && <MobileMenu />}
     </div>
   );
 };
