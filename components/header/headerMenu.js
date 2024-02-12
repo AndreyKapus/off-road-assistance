@@ -7,13 +7,10 @@ import Logo from "./logo";
 import OpenMobileMenuBtn from "./openMobileMenuBtn";
 import MobileMenu from "./mobileMenu";
 import { useEffect, useState } from "react";
-import { useMenu } from "@/store";
 // import { useEffect, useState } from "react";
 
 const Layout = () => {
   const [screenWidth, setScreenWidth] = useState(null);
-
-  const mobMenuState = useMenu((state) => state.mobMenuIsOpen);
 
   useEffect(() => {
     const width = window.screen.width;
@@ -26,7 +23,7 @@ const Layout = () => {
         <Logo />
       </Link>
       {screenWidth < 768 ? <OpenMobileMenuBtn /> : <MenuList />}
-      {/* {mobMenuState ? <MobileMenu /> : <div>None</div>} */}
+      {<OpenMobileMenuBtn /> && <MobileMenu />}
     </div>
   );
 };
