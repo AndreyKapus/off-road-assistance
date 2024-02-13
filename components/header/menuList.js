@@ -6,14 +6,24 @@ const MenuList = () => {
   return (
     <>
       <ul className={styles.linksList}>
-        <li>
+        <li className={styles.menuItem}>
           <Link href="/contacts" className={styles.listLink}>
             Контакти
           </Link>
         </li>
-        <li>
+        <li className={styles.menuItem}>
           <Link href="/tariffs" className={styles.listLink}>
             Тарифи
+          </Link>
+        </li>
+        <li className={styles.menuItem}>
+          <Link href="/services" className={styles.listLink}>
+            Сервіси
+          </Link>
+        </li>
+        <li className={styles.menuItem}>
+          <Link href="/gallery" className={styles.listLink}>
+            Галерея
           </Link>
         </li>
       </ul>

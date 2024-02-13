@@ -3,16 +3,24 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
-  background-color: #242526;
+  background-color: var(--main-bg-color);
 }
 
 .linksList {
-  /* list-style: none; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border-bottom: 2px solid var(--white);
   text-decoration: none;
 }
 
 .listLink {
   text-decoration: none;
+}
+
+.menuItem {
+  margin-bottom: 18px;
+  font-size: 18px;
 }
 
 .logo {
@@ -28,9 +36,16 @@
 }
 
 .mobileMenuBtn {
-  color: white;
+  color: var(--white);
   background-color: transparent;
   border: none;
+}
+
+.closeMobileMenuBtn {
+  color: var(--white);
+  background-color: transparent;
+  border: none;
+  margin-bottom: 30px;
 }
 
 .mobileMenuBackdrop {
@@ -38,10 +53,10 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  width: 90%;
+  width: 70%;
   height: 100%;
   padding: 20px;
-  background-color: black;
+  background-color: var(--black);
 }
 
 /* .isOpen {
@@ -57,7 +72,9 @@
     gap: 20px;
   }
 
-  /* .mobileMenuBtn {
-    display: none;
-  } */
+  .linksList {
+    margin-bottom: 0px;
+    border-bottom: none;
+    text-decoration: none;
+  }
 }

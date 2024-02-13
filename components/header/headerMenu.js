@@ -23,8 +23,6 @@ const Layout = () => {
     setMobileMenu(false);
   };
 
-  console.log(mobMenu);
-
   useEffect(() => {
     const width = window.screen.width;
     setScreenWidth(width);

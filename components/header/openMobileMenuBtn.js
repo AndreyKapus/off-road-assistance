@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import styles from "../../app/styles/header.module.css";
