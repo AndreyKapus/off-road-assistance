@@ -1,11 +1,11 @@
 const { default: MenuList } = require("./menuList");
 import styles from "../../app/styles/header.module.css";
-import OpenMobileMenuBtn from "./openMobileMenuBtn";
+import CloseMobileMenuBtn from "./closeMobileMenuBtn";
 
-const MobileMenu = () => {
+const MobileMenu = ({ closeMenu }) => {
   return (
     <div className={styles.mobileMenuBackdrop}>
-      <OpenMobileMenuBtn />
+      <CloseMobileMenuBtn closeMenu={closeMenu} />
       <MenuList />
     </div>
   );

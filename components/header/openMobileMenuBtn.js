@@ -4,14 +4,10 @@ import { IoMdMenu } from "react-icons/io";
 import styles from "../../app/styles/header.module.css";
 import { useMenu } from "@/store";
 
-const OpenMobileMenuBtn = ({ toggleMenu }) => {
+const OpenMobileMenuBtn = ({ openMenu }) => {
   return (
     <>
-      <button
-        type="button"
-        className={styles.mobileMenuBtn}
-        onClick={toggleMenu}
-      >
+      <button type="button" className={styles.mobileMenuBtn} onClick={openMenu}>
         <IoMdMenu size={24} />
       </button>
     </>

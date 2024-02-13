@@ -9,7 +9,6 @@
 .linksList {
   /* list-style: none; */
   text-decoration: none;
-  display: none;
 }
 
 .listLink {
@@ -41,7 +40,8 @@
   right: 0px;
   width: 90%;
   height: 100%;
-  background-color: aqua;
+  padding: 20px;
+  background-color: black;
 }
 
 /* .isOpen {

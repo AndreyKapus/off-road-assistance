@@ -15,8 +15,12 @@ const Layout = () => {
 
   // const mobMenuOpen = useMenu((state) => state.setMenu);
 
-  const togleMobileMenu = () => {
+  const openMobileMenu = () => {
     setMobileMenu(true);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenu(false);
   };
 
   console.log(mobMenu);
@@ -32,11 +36,11 @@ const Layout = () => {
         <Logo />
       </Link>
       {screenWidth < 768 ? (
-        <OpenMobileMenuBtn toggleMenu={togleMobileMenu} />
+        <OpenMobileMenuBtn openMenu={openMobileMenu} />
       ) : (
         <MenuList />
       )}
-      {mobMenu === true && <MobileMenu />}
+      {mobMenu === true && <MobileMenu closeMenu={closeMobileMenu} />}
     </div>
   );
 };
