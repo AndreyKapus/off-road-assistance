@@ -6,12 +6,14 @@
   background-color: var(--main-bg-color);
 }
 
-.linksList {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
-  border-bottom: 2px solid var(--white);
-  text-decoration: none;
+@media screen and (max-width: 767.99px) {
+  .linksList {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border-bottom: 2px solid var(--white);
+    text-decoration: none;
+  }
 }
 
 .listLink {
@@ -45,7 +47,6 @@
   color: var(--white);
   background-color: transparent;
   border: none;
-  margin-bottom: 30px;
 }
 
 .mobileMenuBackdrop {
@@ -59,10 +60,6 @@
   background-color: var(--black);
 }
 
-/* .isOpen {
-  display: block;
-} */
-
 @media screen and (min-width: 768px) {
   .linksList {
     display: flex;
@@ -70,11 +67,12 @@
     align-items: center;
     list-style: none;
     gap: 20px;
-  }
-
-  .linksList {
-    margin-bottom: 0px;
     border-bottom: none;
     text-decoration: none;
+  }
+
+  .menuItem {
+    margin-bottom: 0px;
+    font-size: 18px;
   }
 }
