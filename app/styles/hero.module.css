@@ -16,7 +16,7 @@
 .heroTitleWrapper {
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 36px;
   width: 260px;
   text-align: right;
 }
@@ -35,7 +35,33 @@
   font-size: 16px;
 }
 
+.heroTitle {
+  margin-bottom: 16px;
+  font-size: 46px;
+}
+
 @media screen and (min-width: 768px) {
+  .heroWrapper {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .heroTitleWrapper {
+    margin-left: auto;
+    margin-right: 70px;
+    width: 300px;
+    text-align: right;
+  }
+
+  .heroCallBtn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .heroWrapper {
     width: 100%;
     padding-top: 200px;
