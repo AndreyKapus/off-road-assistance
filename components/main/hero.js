@@ -3,7 +3,8 @@ import styles from "../../app/styles/hero.module.css";
 const Hero = () => {
   return (
     <div className={styles.heroTitleWrapper}>
-      <h1>4x4 Roadside Assistance</h1>
+      <h1 className={styles.heroTitle}>Roadside Assistance</h1>
+      <button className={styles.heroCallBtn}>Викликати</button>
     </div>
   );
 };
