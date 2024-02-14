@@ -7,3 +7,17 @@
 .aboutText:not(:last-child) {
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 1280px) {
+  .aboutSection {
+    padding: 40px 40px;
+    text-align: center;
+  }
+
+  .textWrapper {
+  }
+
+  .aboutText:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

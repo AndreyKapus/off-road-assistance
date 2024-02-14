@@ -76,3 +76,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .headerWrapper {
+    padding: 0px 40px;
+  }
+}
