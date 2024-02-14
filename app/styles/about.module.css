@@ -1,0 +1,9 @@
+.aboutSection {
+  padding: 40px 20px;
+  background-color: var(--main-bg-color);
+  color: var(--white);
+}
+
+.aboutText:not(:last-child) {
+  margin-bottom: 20px;
+}

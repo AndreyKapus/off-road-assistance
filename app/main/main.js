@@ -1,11 +1,13 @@
 import Hero from "@/components/main/hero";
 import styles from "../styles/hero.module.css";
+import About from "@/components/main/about";
 
 const MainPage = () => {
   return (
-    <section className={styles.heroWrapper}>
+    <>
       <Hero />
-    </section>
+      <About />
+    </>
   );
 };
 
