@@ -2,6 +2,7 @@
   padding: 40px 20px;
   background-color: var(--main-bg-color);
   color: var(--white);
+  border-bottom: var(--red);
 }
 
 .aboutText:not(:last-child) {
