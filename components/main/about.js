@@ -1,8 +1,10 @@
 import styles from "../../app/styles/about.module.css";
+import AboutImg from "./aboutImg";
 
 const About = () => {
   return (
     <section className={styles.aboutSection}>
+      <AboutImg />
       <div className={styles.textWrapper}>
         <p className={styles.aboutText}>
           Ми розуміємо, що подорожі можуть мати непередбачувані обставини, і
