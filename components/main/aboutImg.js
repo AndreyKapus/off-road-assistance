@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CarInMudImg from "../../images/stuck-in-mud.jpg";
+import CarInMudImg from "../../images/car_stuck.jpg";
 import styles from "../../app/styles/about.module.css";
 
 const AboutImg = () => {
