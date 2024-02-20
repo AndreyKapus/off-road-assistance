@@ -7,7 +7,7 @@ const About = () => {
       <div className={styles.adoutContainer}>
         <AboutImg />
         <div className={styles.textWrapper}>
-          {/* <h2 className={styles.aboutTitle}>Допомога поруч</h2> */}
+          <h2 className={styles.aboutTitle}>Допомога поруч</h2>
           <p className={styles.aboutText}>
             Ми розуміємо, що подорожі можуть мати непередбачувані обставини, і
             саме тому ми завжди на зв<span>&#39;</span>язку, готові надати
@@ -22,6 +22,9 @@ const About = () => {
             Наші послуги доступні для всіх типів автомобілів. Ми підходимо до
             кожної ситуації індивідуально, забезпечуючи швидкий результат.
           </p>
+          <button type="button" className={styles.aboutCallBtn}>
+            Викликати
+          </button>
         </div>
       </div>
     </section>

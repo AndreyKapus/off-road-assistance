@@ -17,8 +17,19 @@
   text-align: center;
 }
 
-.aboutText:not(:last-child) {
+.aboutText {
   margin-bottom: 20px;
+}
+
+.aboutCallBtn {
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -37,11 +48,20 @@
   .imageWrapper {
     display: block;
   }
+
+  .aboutTitle {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1100px) {
   .adoutContainer {
     width: 1100px;
+    gap: 40px;
+  }
+
+  .aboutTitle {
+    display: block;
   }
 }
 
@@ -50,7 +70,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
-    gap: 30px;
   }
 
   .adoutContainer {
@@ -66,7 +85,7 @@
     font-size: 30px;
   }
 
-  .aboutText:not(:last-child) {
-    margin-bottom: 10px;
+  .aboutText {
+    margin-bottom: 20px;
   }
 }
