@@ -1,0 +1,7 @@
+.servicesSection {
+  background-color: var(--main-bg-color);
+}
+
+.servicesContainer {
+  padding: 40px 20px;
+}
