@@ -4,7 +4,7 @@ const ServicesMain = () => {
   return (
     <section className={styles.servicesSection}>
       <div className={styles.servicesContainer}>
-        <h3 className={styles.servicesTitle}>Наші сeервіси</h3>
+        <h3 className={styles.servicesTitle}>Services</h3>
       </div>
     </section>
   );
