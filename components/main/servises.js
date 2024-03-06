@@ -21,6 +21,13 @@ const ServicesMain = () => {
             <p></p>
           </div>
         </li>
+        <li>
+          <img src="#" alt="car stuck in the mud" />
+          <div>
+            <h3>Відкриття домашніх замків</h3>
+            <p></p>
+          </div>
+        </li>
       </ul>
     </section>
   );
