@@ -20,6 +20,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .servicesListItem {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1100px) {
