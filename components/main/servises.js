@@ -1,5 +1,6 @@
 import Image from "next/image";
-import CarStuck from "../../images/stuck-in-mud.jpg";
+import CarStuck from "../../images/stuck.jpg";
+import OffRoadImg from "../../images/off-road.jpg";
 import styles from "../../app/styles/servicesMain.module.css";
 
 const ServicesMain = () => {
@@ -11,7 +12,7 @@ const ServicesMain = () => {
       <ul>
         <li className={styles.servicesListItem}>
           <Image
-            src={CarStuck}
+            src={OffRoadImg}
             width={300}
             height={200}
             alt="car stuck in the mud"
@@ -23,11 +24,16 @@ const ServicesMain = () => {
           </div>
         </li>
         <li className={styles.servicesListItem}>
-          <img src="#" alt="car stuck in the mud" />
           <div>
             <h3>Аварійне відкриття замків</h3>
             <p></p>
           </div>
+          <Image
+            src={CarStuck}
+            width={300}
+            height={200}
+            alt="car stuck in the mud"
+          />
         </li>
         <li className={styles.servicesListItem}>
           <img src="#" alt="car stuck in the mud" />
