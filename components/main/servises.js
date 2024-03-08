@@ -17,28 +17,37 @@ const ServicesMain = () => {
               layout="responsive"
               alt="car stuck in the mud"
             />
-
-            <div>
-              <h3>Витяжка авто</h3>
+            <div className={styles.servisesContentWrapper}>
+              <h3 className={styles.servisesListTitle}>Витяжка авто</h3>
               <p>Витягнемо з будь-якої залупи!</p>
             </div>
           </li>
           <li className={styles.servicesListItem}>
-            <div>
-              <h3>Аварійне відкриття замків</h3>
-              <p></p>
-            </div>
             <Image
               className={styles.servisesImage}
               src={CarStuck}
               layout="responsive"
               alt="car stuck in the mud"
             />
+            <div className={styles.servisesContentWrapper}>
+              <h3 className={styles.servisesListTitle}>
+                Аварійне відкриття замків
+              </h3>
+              <p>Відкриємо будь-який замок!</p>
+            </div>
           </li>
           <li className={styles.servicesListItem}>
-            <img src="#" alt="car stuck in the mud" />
-            <div>
-              <h3>Відкриття домашніх замків</h3>
+            <Image
+              src={OffRoadImg}
+              layout="responsive"
+              className={styles.servisesImage}
+              alt="car stuck in the mud"
+            />
+            <div className={styles.servisesContentWrapper}>
+              <h3 className={styles.servisesListTitle}>
+                Відкриття домашніх замків
+              </h3>
+              <p>Відкриємо будь-який замок!</p>
               <p></p>
             </div>
           </li>
