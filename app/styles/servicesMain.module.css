@@ -9,6 +9,17 @@
 .servicesTitle {
   text-align: center;
   font-size: 24px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.servicesList {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.servisesImage {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
