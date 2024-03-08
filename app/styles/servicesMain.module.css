@@ -44,8 +44,25 @@
     margin-right: auto;
   }
 
+  .servicesList {
+    margin-bottom: 0px;
+  }
+
   .servicesListItem {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+
+  .servicesList .servicesListItem:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+  }
+
+  .servisesImage {
+    width: 360px !important;
+    margin-bottom: 0px;
   }
 }
 
