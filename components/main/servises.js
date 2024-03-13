@@ -21,8 +21,6 @@ const ServicesMain = () => {
               <h3 className={styles.servisesListTitle}>Витяжка авто</h3>
               <p>
                 Витягнемо з будь-якої залупи! Compressing objects: 100% (5/5),
-                done. Writing objects: 100% (5/5), 621 bytes | 621.00 KiB/s,
-                done. Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
               </p>
             </div>
           </li>
