@@ -1,5 +1,6 @@
 .servicesSection {
   background-color: var(--main-bg-color);
+  border-bottom: 6px solid var(--blue);
 }
 
 .servicesContainer {
@@ -28,6 +29,7 @@
 
 .servisesImage {
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .servisesContentWrapper {
