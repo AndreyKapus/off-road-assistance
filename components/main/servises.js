@@ -20,9 +20,7 @@ const ServicesMain = () => {
             <div className={styles.servisesContentWrapper}>
               <h3 className={styles.servisesListTitle}>Витяжка авто</h3>
               <p>
-                Витягнемо з будь-якої залупи! Compressing objects: 100%
-                (5/5),Витягнемо з будь-якої залупи! Compressing objects: 100%
-                (5/5),
+                Витягнемо з будь-якої залупи! Compressing objects: 100% (5/5),
               </p>
             </div>
           </li>
