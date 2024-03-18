@@ -1,6 +1,8 @@
 import Image from "next/image";
 import CarStuck from "../../images/stuck.jpg";
 import OffRoadImg from "../../images/off-road.jpg";
+import CarDoorUnlock from "../../images/car_doors_unlock.jpg";
+import DoorUnlock from "../../images/door_unlock.jpg";
 import styles from "../../app/styles/servicesMain.module.css";
 
 const ServicesMain = () => {
@@ -27,7 +29,7 @@ const ServicesMain = () => {
           <li className={styles.servicesListItem}>
             <Image
               className={styles.servisesImage}
-              src={CarStuck}
+              src={CarDoorUnlock}
               layout="responsive"
               alt="car stuck in the mud"
             />
@@ -40,7 +42,7 @@ const ServicesMain = () => {
           </li>
           <li className={styles.servicesListItem}>
             <Image
-              src={OffRoadImg}
+              src={DoorUnlock}
               layout="responsive"
               className={styles.servisesImage}
               alt="car stuck in the mud"
