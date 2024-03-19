@@ -1,0 +1,10 @@
+.contactsSection {
+  padding-top: 80px;
+  background-color: white;
+  color: var(--white);
+  border-bottom: 6px solid var(--blue);
+}
+
+.contactsContainer {
+  padding: 40px 20px;
+}
