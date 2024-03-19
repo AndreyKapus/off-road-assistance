@@ -7,13 +7,16 @@ const Contacts = () => {
         <h2>Контакты</h2>
         <ul>
           <li>
-            Телефон: <a href="tel: 0000000000">0000000000</a>
+            Телефон: <a href="tel:0000000000">0000000000</a>
           </li>
           <li>
-            Viber: <a href="tel: 0000000000">0000000000</a>
+            Viber: <a href="tel:0000000000">0000000000</a>
           </li>
           <li>
-            Telegram: <a href="tel: 0000000000">0000000000</a>
+            Telegram: <a href="tel:0000000000">0000000000</a>
+          </li>
+          <li>
+            Email: <a href="mailto:assistans@mail.com">0000000000</a>
           </li>
         </ul>
       </div>
