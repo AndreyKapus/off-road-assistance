@@ -10,7 +10,6 @@ const MainPage = () => {
       <Hero />
       <About />
       <ServicesMain />
-      <Footer />
     </>
   );
 };
