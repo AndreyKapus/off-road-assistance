@@ -12,7 +12,7 @@ const MenuList = () => {
           </Link>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/tariffs" className={styles.listLink}>
+          <Link href="/rates" className={styles.listLink}>
             Тарифи
           </Link>
         </li>
