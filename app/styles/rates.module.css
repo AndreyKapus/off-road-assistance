@@ -8,3 +8,16 @@
 .ratesContainer {
   padding: 40px 20px;
 }
+
+.ratesList {
+  padding-left: 0px;
+  list-style: none;
+  font-size: 14px;
+}
+
+.ratesListItem {
+  margin-bottom: 20px;
+}
+
+.ratesListRate {
+}
