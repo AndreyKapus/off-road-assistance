@@ -10,12 +10,13 @@
 }
 
 .ratesList {
+  margin-bottom: 0px;
   padding-left: 0px;
   list-style: none;
   font-size: 14px;
 }
 
-.ratesListItem {
+.ratesListItem:not(:last-child) {
   margin-bottom: 20px;
 }
 
