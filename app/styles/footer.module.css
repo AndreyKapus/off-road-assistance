@@ -10,9 +10,22 @@
   display: none;
 }
 
+.contactsItem {
+  display: flex;
+}
+
+.contactsTitle {
+  width: 80px;
+}
+
+.contactInfo {
+  margin-left: 10px;
+}
+
 @media screen and (min-width: 1280px) {
   .footerContainer {
     display: flex;
+    justify-content: space-between;
     padding: 40px 40px;
   }
 

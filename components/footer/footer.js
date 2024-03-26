@@ -10,14 +10,29 @@ const Footer = () => {
           <Logo />
         </Link>
         <ul>
-          <li>
-            Телефон:<span></span>
+          <li className={styles.contactsItem}>
+            <p className={styles.contactsTitle}>Телефон:</p>
+            <a href="tel:0000000000" className={styles.contactInfo}>
+              +380 93 333 33 33
+            </a>
           </li>
-          <li>
-            Viber:<span></span>
+          <li className={styles.contactsItem}>
+            <p className={styles.contactsTitle}>Viber:</p>
+            <a href="tel:0000000000" className={styles.contactInfo}>
+              +380 93 333 33 33
+            </a>
           </li>
-          <li>
-            Telegram:<span></span>
+          <li className={styles.contactsItem}>
+            <p className={styles.contactsTitle}>Telegram:</p>
+            <a href="tel:0000000000" className={styles.contactInfo}>
+              +380 93 333 33 33
+            </a>
+          </li>
+          <li className={styles.contactsItem}>
+            <p className={styles.contactsTitle}>Email:</p>
+            <a href="mailto:assistans@mail.com" className={styles.contactInfo}>
+              mailto:assistans@mail.com
+            </a>
           </li>
         </ul>
       </div>
