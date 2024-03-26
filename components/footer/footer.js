@@ -10,9 +10,15 @@ const Footer = () => {
           <Logo />
         </Link>
         <ul>
-          <li>Телефон</li>
-          <li>Viber</li>
-          <li>Telegram</li>
+          <li>
+            Телефон:<span></span>
+          </li>
+          <li>
+            Viber:<span></span>
+          </li>
+          <li>
+            Telegram:<span></span>
+          </li>
         </ul>
       </div>
     </section>

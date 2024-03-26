@@ -7,14 +7,19 @@
 }
 
 .logoLink {
-  width: 80px;
-  height: 80px;
-  display: inline-block;
-  text-decoration: none;
+  display: none;
 }
 
 @media screen and (min-width: 1280px) {
   .footerContainer {
+    display: flex;
     padding: 40px 40px;
+  }
+
+  .logoLink {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    text-decoration: none;
   }
 }
