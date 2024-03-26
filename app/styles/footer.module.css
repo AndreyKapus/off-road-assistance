@@ -10,6 +10,10 @@
   display: none;
 }
 
+.contactsList {
+  padding-left: 0px;
+}
+
 .contactsItem {
   display: flex;
 }

@@ -9,7 +9,7 @@ const Footer = () => {
         <Link href="/" className={styles.logoLink}>
           <Logo />
         </Link>
-        <ul>
+        <ul className={styles.contactsList}>
           <li className={styles.contactsItem}>
             <p className={styles.contactsTitle}>Телефон:</p>
             <a href="tel:0000000000" className={styles.contactInfo}>
