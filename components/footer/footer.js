@@ -31,7 +31,7 @@ const Footer = () => {
           <li className={styles.contactsItem}>
             <p className={styles.contactsTitle}>Email:</p>
             <a href="mailto:assistans@mail.com" className={styles.contactInfo}>
-              mailto:assistans@mail.com
+              assistans@mail.com
             </a>
           </li>
         </ul>
