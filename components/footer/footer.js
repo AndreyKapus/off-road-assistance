@@ -25,7 +25,7 @@ const Footer = () => {
           <li className={styles.contactsItem}>
             <p className={styles.contactsTitle}>Telegram:</p>
             <a href="tel:0000000000" className={styles.contactInfo}>
-              +380 93 333 33 33
+              +380 00 00 00 00
             </a>
           </li>
           <li className={styles.contactsItem}>
