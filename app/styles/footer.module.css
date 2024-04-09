@@ -16,6 +16,7 @@
 
 .contactsItem {
   display: flex;
+  gap: 16px;
 }
 
 .contactsTitle {
