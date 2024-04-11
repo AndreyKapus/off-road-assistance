@@ -34,6 +34,12 @@ const Footer = () => {
               assistans@mail.com
             </a>
           </li>
+          <li className={styles.contactsItem}>
+            <p className={styles.contactsTitle}>Email:</p>
+            <a href="mailto:assistans@mail.com" className={styles.contactInfo}>
+              assistans@mail.com
+            </a>
+          </li>
         </ul>
       </div>
     </section>
