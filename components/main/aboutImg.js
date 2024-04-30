@@ -6,6 +6,7 @@ const AboutImg = () => {
   return (
     <div className={styles.imageWrapper}>
       <Image
+        className={styles.aboutImage}
         src={CarInMudImg}
         style={{
           width: "100%",

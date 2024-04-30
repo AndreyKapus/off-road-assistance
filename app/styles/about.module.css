@@ -12,6 +12,10 @@
   display: none;
 }
 
+.aboutImage {
+  border-radius: 5px;
+}
+
 .aboutTitle {
   margin-bottom: 20px;
   text-align: center;
