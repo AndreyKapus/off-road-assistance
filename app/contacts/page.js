@@ -18,9 +18,6 @@ const Contacts = () => {
           <li>
             Email: <a href="mailto:assistans@mail.com">0000000000</a>
           </li>
-          <li>
-            Email: <a href="mailto:assistans@mail.com">0000000000</a>
-          </li>
         </ul>
       </div>
     </section>
