@@ -18,6 +18,19 @@ const Contacts = () => {
           <li>
             Email: <a href="mailto:assistans@mail.com">0000000000</a>
           </li>
+                  <ul>
+          <li>
+            Телефон: <a href="tel:0000000000">0000000000</a>
+          </li>
+          <li>
+            Viber: <a href="tel:0000000000">0000000000</a>
+          </li>
+          <li>
+            Telegram: <a href="tel:0000000000">0000000000</a>
+          </li>
+          <li>
+            Email: <a href="mailto:assistans@mail.com">0000000000</a>
+          </li>
         </ul>
       </div>
     </section>
