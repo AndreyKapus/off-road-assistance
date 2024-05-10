@@ -15,6 +15,9 @@ const Contacts = () => {
           <li>
             Telegram: <a href="tel:0000000000">0000000000</a>
           </li>
+          <li>
+            Telegram: <a href="tel:0000000000">0000000000</a>
+          </li>
         </ul>
       </div>
     </section>
