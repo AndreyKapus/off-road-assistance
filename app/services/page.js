@@ -4,7 +4,11 @@ const Services = () => {
   return (
     <section className={styles.servicesSection}>
       <h2 className="servisesTitle">Наші сервіси</h2>
-      <div className="servicesWrapper"></div>
+      <div className="servicesWrapper">
+        <h2>Title</h2>
+        <p>Text</p>
+        <p>Image</p>
+      </div>
     </section>
   );
 };
