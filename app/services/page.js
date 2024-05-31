@@ -9,6 +9,16 @@ const Services = () => {
         <p>Text</p>
         <p>Image</p>
       </div>
+      <div className="servicesWrapper">
+        <h2>Title</h2>
+        <p>Text</p>
+        <p>Image</p>
+      </div>
+      <div className="servicesWrapper">
+        <h2>Title</h2>
+        <p>Text</p>
+        <p>Image</p>
+      </div>
     </section>
   );
 };
