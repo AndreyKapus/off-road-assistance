@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className={styles.servicesSection}>
       <div className={styles.servicesContainer}>
-        <h2 className="servisesTitle">Наші сервіси</h2>
+        <h2 className={styles.servisesTitle}>Наші сервіси</h2>
         <div className="servicesWrapper">
           <Image
             src={carStuckInSnow}
