@@ -5,6 +5,10 @@
   border-bottom: 6px solid var(--blue);
 }
 
+.servicesContainer {
+  padding: 40px 20px;
+}
+
 .servisesTitle {
   color: white;
 }
