@@ -17,8 +17,8 @@ const Services = () => {
           <p>Витягнемо авто із снігу, болота або піску</p>
         </div>
         <div className="servicesWrapper">
-          <h2>Title</h2>
-          <p>Text</p>
+          <h2>Аварійне відкривання замків</h2>
+          <p>відкриємо ваше авто</p>
           <p>Image</p>
         </div>
       </div>
