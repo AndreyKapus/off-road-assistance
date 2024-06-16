@@ -17,6 +17,11 @@ const Services = () => {
           <p>Витягнемо авто із снігу, болота або піску</p>
         </div>
         <div className="servicesWrapper">
+          <Image
+            src={carStuckInSnow}
+            alt="car stuck in snow"
+            className={styles.servicesImage}
+          />
           <h2>Аварійне відкривання замків</h2>
           <p>відкриємо ваше авто</p>
           <p>Image</p>
