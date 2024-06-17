@@ -14,7 +14,10 @@ const Services = () => {
             className={styles.servicesImage}
           />
           <h2 className={styles.servicesTitle}>Витягування машини</h2>
-          <p>Витягнемо авто із снігу, болота або піску</p>
+          <p className={styles.servicesText}>
+            Витягнемо авто із снігу, болота або піску
+          </p>
+          <button className={styles.servicesOrderBtn}>Замовити</button>
         </div>
         <div className="servicesWrapper">
           <Image
@@ -23,8 +26,8 @@ const Services = () => {
             className={styles.servicesImage}
           />
           <h2>Аварійне відкривання замків</h2>
-          <p>відкриємо ваше авто</p>
-          <p>Image</p>
+          <p className={styles.servicesText}>відкриємо ваше авто</p>
+          <button className={styles.servicesOrderBtn}>Замовити</button>
         </div>
       </div>
     </section>

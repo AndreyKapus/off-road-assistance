@@ -22,9 +22,22 @@
 .servicesImage {
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .servicesTitle {
   margin-bottom: 10px;
+}
+
+.servicesText {
+  margin-bottom: 12px;
+}
+
+.servicesOrderBtn {
+  width: 100%;
+  height: 40px;
+  background-color: var(--red);
+  color: white;
+  border: none;
+  border-radius: 2px;
 }
