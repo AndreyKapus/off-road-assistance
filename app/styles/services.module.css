@@ -9,6 +9,10 @@
   padding: 40px 20px;
 }
 
+.servicesWrapper {
+  margin-bottom: 40px;
+}
+
 .servisesTitle {
   margin-bottom: 20px;
   text-align: center;
@@ -18,4 +22,9 @@
 .servicesImage {
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
+}
+
+.servicesTitle {
+  margin-bottom: 10px;
 }

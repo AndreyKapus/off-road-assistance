@@ -7,13 +7,13 @@ const Services = () => {
     <section className={styles.servicesSection}>
       <div className={styles.servicesContainer}>
         <h2 className={styles.servisesTitle}>Наші сервіси</h2>
-        <div className="servicesWrapper">
+        <div className={styles.servicesWrapper}>
           <Image
             src={carStuckInSnow}
             alt="car stuck in snow"
             className={styles.servicesImage}
           />
-          <h2>Витягування машини</h2>
+          <h2 className={styles.servicesTitle}>Витягування машини</h2>
           <p>Витягнемо авто із снігу, болота або піску</p>
         </div>
         <div className="servicesWrapper">
