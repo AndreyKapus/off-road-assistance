@@ -36,7 +36,7 @@ const Services = () => {
             className={styles.servicesImage}
           />
           <h2>Аварійне відкривання замків</h2>
-          <p className={styles.servicesText}>відкриємо ваше авто</p>
+          <p className={styles.servicesText}>відкриємо вашу квартиру</p>
           <button className={styles.servicesOrderBtn}>Замовити</button>
         </div>
       </div>
