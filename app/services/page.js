@@ -41,6 +41,18 @@ const Services = () => {
           </p>
           <button className={styles.servicesOrderBtn}>Замовити</button>
         </div>
+        <div className="servicesWrapper">
+          <Image
+            src={carStuckInSnow}
+            alt="car stuck in snow"
+            className={styles.servicesImage}
+          />
+          <h2>Аварійне відкривання замків</h2>
+          <p className={styles.servicesText}>
+            Відкриємо вашу квартиру, будинок, офіс
+          </p>
+          <button className={styles.servicesOrderBtn}>Замовити</button>
+        </div>
       </div>
     </section>
   );
