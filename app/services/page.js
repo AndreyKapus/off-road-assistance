@@ -37,7 +37,7 @@ const Services = () => {
           />
           <h2>Аварійне відкривання замків</h2>
           <p className={styles.servicesText}>
-            Відкриємо вашу квартиру, будинок, офіс
+            Відкриємо вашу квартиру, будинок, офіс, гараж
           </p>
           <button className={styles.servicesOrderBtn}>Замовити</button>
         </div>
