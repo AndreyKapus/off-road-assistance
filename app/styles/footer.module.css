@@ -12,11 +12,14 @@
 
 .contactsList {
   padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .contactsItem {
   display: flex;
   gap: 16px;
+  line-height: 1.21;
 }
 
 .contactsTitle {
