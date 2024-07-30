@@ -25,6 +25,13 @@ const About = () => {
           <button type="button" className={styles.aboutCallBtn}>
             Викликати
           </button>
+          <p className={styles.aboutText}>
+            Наші послуги доступні для всіх типів автомобілів. Ми підходимо до
+            кожної ситуації індивідуально, забезпечуючи швидкий результат.
+          </p>
+          <button type="button" className={styles.aboutCallBtn}>
+            Викликати
+          </button>
         </div>
       </div>
     </section>
